@@ -5,7 +5,7 @@ from titanic_dataset import TitanicDataSet
 TRAIN_FILE = "train.csv"
 TEST_FILE = "test.csv"
 LEARNING_RATE = 0.001
-EPOCH_NUM = 200000
+EPOCH_NUM = 2000
 BATCH_SIZE = 100
 
 titanicDataSet = TitanicDataSet(TRAIN_FILE, TEST_FILE)
